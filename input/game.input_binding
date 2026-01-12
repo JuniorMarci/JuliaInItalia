@@ -1,0 +1,40 @@
+key_trigger {
+  input: KEY_UP
+  action: "ircima"
+}
+key_trigger {
+  input: KEY_DOWN
+  action: "irbaixo"
+}
+key_trigger {
+  input: KEY_LEFT
+  action: "iresquerda"
+}
+key_trigger {
+  input: KEY_RIGHT
+  action: "irdireita"
+}
+key_trigger {
+  input: KEY_SPACE
+  action: "soltar"
+}
+gamepad_trigger {
+  input: GAMEPAD_LSTICK_LEFT
+  action: "ircima"
+}
+gamepad_trigger {
+  input: GAMEPAD_LSTICK_RIGHT
+  action: "irdireita"
+}
+gamepad_trigger {
+  input: GAMEPAD_LSTICK_DOWN
+  action: "irbaixo"
+}
+gamepad_trigger {
+  input: GAMEPAD_LSTICK_UP
+  action: "ircima"
+}
+gamepad_trigger {
+  input: GAMEPAD_LPAD_LEFT
+  action: "iresquerda"
+}

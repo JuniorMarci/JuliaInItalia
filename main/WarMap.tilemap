@@ -1,0 +1,470 @@
+tile_set: "/main/WarMap.tilesource"
+layers {
+  id: "layer1"
+  z: 0.0
+  cell {
+    x: -217
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -216
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -215
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -214
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -213
+    y: -34
+    tile: 389
+  }
+  cell {
+    x: -212
+    y: -34
+    tile: 390
+  }
+  cell {
+    x: -211
+    y: -34
+    tile: 391
+  }
+  cell {
+    x: -210
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -209
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -208
+    y: -34
+    tile: 337
+  }
+  cell {
+    x: -217
+    y: -33
+    tile: 337
+  }
+  cell {
+    x: -216
+    y: -33
+    tile: 337
+  }
+  cell {
+    x: -215
+    y: -33
+    tile: 337
+  }
+  cell {
+    x: -214
+    y: -33
+    tile: 364
+  }
+  cell {
+    x: -213
+    y: -33
+    tile: 365
+  }
+  cell {
+    x: -212
+    y: -33
+    tile: 366
+  }
+  cell {
+    x: -211
+    y: -33
+    tile: 367
+  }
+  cell {
+    x: -210
+    y: -33
+    tile: 337
+  }
+  cell {
+    x: -209
+    y: -33
+    tile: 337
+  }
+  cell {
+    x: -208
+    y: -33
+    tile: 337
+  }
+  cell {
+    x: -217
+    y: -32
+    tile: 337
+  }
+  cell {
+    x: -216
+    y: -32
+    tile: 338
+  }
+  cell {
+    x: -215
+    y: -32
+    tile: 339
+  }
+  cell {
+    x: -214
+    y: -32
+    tile: 340
+  }
+  cell {
+    x: -213
+    y: -32
+    tile: 341
+  }
+  cell {
+    x: -212
+    y: -32
+    tile: 342
+  }
+  cell {
+    x: -211
+    y: -32
+    tile: 343
+  }
+  cell {
+    x: -210
+    y: -32
+    tile: 344
+  }
+  cell {
+    x: -209
+    y: -32
+    tile: 345
+  }
+  cell {
+    x: -208
+    y: -32
+    tile: 346
+  }
+  cell {
+    x: -217
+    y: -31
+    tile: 313
+  }
+  cell {
+    x: -216
+    y: -31
+    tile: 314
+  }
+  cell {
+    x: -215
+    y: -31
+    tile: 315
+  }
+  cell {
+    x: -214
+    y: -31
+    tile: 316
+  }
+  cell {
+    x: -213
+    y: -31
+    tile: 317
+  }
+  cell {
+    x: -212
+    y: -31
+    tile: 318
+  }
+  cell {
+    x: -211
+    y: -31
+    tile: 319
+  }
+  cell {
+    x: -210
+    y: -31
+    tile: 320
+  }
+  cell {
+    x: -209
+    y: -31
+    tile: 321
+  }
+  cell {
+    x: -208
+    y: -31
+    tile: 322
+  }
+  cell {
+    x: -217
+    y: -30
+    tile: 289
+  }
+  cell {
+    x: -216
+    y: -30
+    tile: 290
+  }
+  cell {
+    x: -215
+    y: -30
+    tile: 291
+  }
+  cell {
+    x: -214
+    y: -30
+    tile: 292
+  }
+  cell {
+    x: -213
+    y: -30
+    tile: 293
+  }
+  cell {
+    x: -212
+    y: -30
+    tile: 294
+  }
+  cell {
+    x: -211
+    y: -30
+    tile: 295
+  }
+  cell {
+    x: -210
+    y: -30
+    tile: 296
+  }
+  cell {
+    x: -209
+    y: -30
+    tile: 297
+  }
+  cell {
+    x: -208
+    y: -30
+    tile: 298
+  }
+  cell {
+    x: -217
+    y: -29
+    tile: 265
+  }
+  cell {
+    x: -216
+    y: -29
+    tile: 266
+  }
+  cell {
+    x: -215
+    y: -29
+    tile: 293
+  }
+  cell {
+    x: -214
+    y: -29
+    tile: 293
+  }
+  cell {
+    x: -213
+    y: -29
+    tile: 293
+  }
+  cell {
+    x: -212
+    y: -29
+    tile: 293
+  }
+  cell {
+    x: -211
+    y: -29
+    tile: 293
+  }
+  cell {
+    x: -210
+    y: -29
+    tile: 293
+  }
+  cell {
+    x: -209
+    y: -29
+    tile: 273
+  }
+  cell {
+    x: -208
+    y: -29
+    tile: 274
+  }
+  cell {
+    x: -217
+    y: -28
+    tile: 241
+  }
+  cell {
+    x: -216
+    y: -28
+    tile: 242
+  }
+  cell {
+    x: -215
+    y: -28
+    tile: 295
+  }
+  cell {
+    x: -214
+    y: -28
+    tile: 74
+  }
+  cell {
+    x: -213
+    y: -28
+    tile: 75
+  }
+  cell {
+    x: -212
+    y: -28
+    tile: 76
+  }
+  cell {
+    x: -211
+    y: -28
+    tile: 77
+  }
+  cell {
+    x: -210
+    y: -28
+    tile: 293
+  }
+  cell {
+    x: -209
+    y: -28
+    tile: 295
+  }
+  cell {
+    x: -208
+    y: -28
+    tile: 250
+  }
+  cell {
+    x: -217
+    y: -27
+    tile: 337
+  }
+  cell {
+    x: -216
+    y: -27
+    tile: 218
+  }
+  cell {
+    x: -215
+    y: -27
+    tile: 219
+  }
+  cell {
+    x: -214
+    y: -27
+    tile: 50
+  }
+  cell {
+    x: -213
+    y: -27
+    tile: 51
+  }
+  cell {
+    x: -212
+    y: -27
+    tile: 52
+  }
+  cell {
+    x: -211
+    y: -27
+    tile: 53
+  }
+  cell {
+    x: -210
+    y: -27
+    tile: 224
+  }
+  cell {
+    x: -209
+    y: -27
+    tile: 225
+  }
+  cell {
+    x: -208
+    y: -27
+    tile: 226
+  }
+  cell {
+    x: -217
+    y: -26
+    tile: 337
+  }
+  cell {
+    x: -216
+    y: -26
+    tile: 337
+  }
+  cell {
+    x: -215
+    y: -26
+    tile: 195
+  }
+  cell {
+    x: -214
+    y: -26
+    tile: 196
+  }
+  cell {
+    x: -213
+    y: -26
+    tile: 197
+  }
+  cell {
+    x: -212
+    y: -26
+    tile: 198
+  }
+  cell {
+    x: -211
+    y: -26
+    tile: 199
+  }
+  cell {
+    x: -210
+    y: -26
+    tile: 200
+  }
+  cell {
+    x: -209
+    y: -26
+    tile: 337
+  }
+  cell {
+    x: -208
+    y: -26
+    tile: 337
+  }
+  cell {
+    x: -96
+    y: -13
+    tile: 0
+  }
+  cell {
+    x: -95
+    y: -12
+    tile: 0
+  }
+}
+layers {
+  id: "Agua"
+  z: 0.0
+}
+material: "/builtins/materials/tile_map.material"

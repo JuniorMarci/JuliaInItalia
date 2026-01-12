@@ -1,0 +1,70 @@
+animations {
+  id: "cima"
+  images {
+    image: "/assets/units/worker/up/1.png"
+  }
+  images {
+    image: "/assets/units/worker/up/2.png"
+  }
+  images {
+    image: "/assets/units/worker/up/3.png"
+  }
+  images {
+    image: "/assets/units/worker/up/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "baixo"
+  images {
+    image: "/assets/units/worker/down/1.png"
+  }
+  images {
+    image: "/assets/units/worker/down/2.png"
+  }
+  images {
+    image: "/assets/units/worker/down/3.png"
+  }
+  images {
+    image: "/assets/units/worker/down/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "esquerda"
+  images {
+    image: "/assets/units/worker/side/1.png"
+  }
+  images {
+    image: "/assets/units/worker/side/2.png"
+  }
+  images {
+    image: "/assets/units/worker/side/3.png"
+  }
+  images {
+    image: "/assets/units/worker/side/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 1
+}
+animations {
+  id: "direita"
+  images {
+    image: "/assets/units/worker/side/1.png"
+  }
+  images {
+    image: "/assets/units/worker/side/2.png"
+  }
+  images {
+    image: "/assets/units/worker/side/3.png"
+  }
+  images {
+    image: "/assets/units/worker/side/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+extrude_borders: 2

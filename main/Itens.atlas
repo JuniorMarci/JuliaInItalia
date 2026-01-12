@@ -1,0 +1,15 @@
+animations {
+  id: "1"
+  images {
+    image: "/assets/buildings/factory/1.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+animations {
+  id: "2"
+  images {
+    image: "/assets/buildings/command-center/1.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+}
+extrude_borders: 2
