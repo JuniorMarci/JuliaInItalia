@@ -261,3 +261,11 @@ embedded_instances {
     z: 0.5
   }
 }
+embedded_instances {
+  id: "MenuHeroi"
+  data: "components {\n"
+  "  id: \"MenuHeroi\"\n"
+  "  component: \"/Interface/MenuHeroi.gui\"\n"
+  "}\n"
+  ""
+}

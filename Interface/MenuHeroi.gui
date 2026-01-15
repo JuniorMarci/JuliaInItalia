@@ -1,0 +1,23 @@
+script: "/Interface/MenuHeroi.gui_script"
+fonts {
+  name: "Comum"
+  font: "/Interface/Comum.font"
+}
+nodes {
+  position {
+    x: 17.0
+    y: 399.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "Livre"
+  font: "Comum"
+  id: "Item"
+  pivot: PIVOT_W
+  inherit_alpha: true
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
