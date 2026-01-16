@@ -19,5 +19,42 @@ nodes {
   pivot: PIVOT_W
   inherit_alpha: true
 }
+nodes {
+  position {
+    x: 120.0
+    y: 59.0
+  }
+  size {
+    x: 225.0
+    y: 100.0
+  }
+  color {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  type: TYPE_BOX
+  id: "FundoInstrucoes"
+  inherit_alpha: true
+  alpha: 0.49
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 21.0
+    y: 104.0
+  }
+  size {
+    x: 200.0
+    y: 90.0
+  }
+  type: TYPE_TEXT
+  text: "<text>"
+  font: "Comum"
+  id: "Instrucoes"
+  pivot: PIVOT_NW
+  line_break: true
+  inherit_alpha: true
+}
 material: "/builtins/materials/gui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT

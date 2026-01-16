@@ -5,6 +5,9 @@ function init(self)                                 -- [1]
 	self.input = vmath.vector3()                    -- [4]
 	self.dir = vmath.vector3(0, 1, 0)               -- [5]
 	self.speed = 50      
+
+	local json = require("json")
+	
 end
 
 function final(self)                                -- [7]
@@ -88,6 +91,14 @@ function on_message(self, message_id, message, sender)
 			itemColetado = item
 			msg.post("/MenuHeroi#MenuHeroi", 'itemAlterado', {item=item}) 
 			return 0 end
+
+
+			if(string.find(colisao, "Instrucao") ~= nil) then
+				colID = string.sub(colisao, 9,-2)
+				local tjf = json.decode(sys.load_resource("/Interface/Instrucoes.json"))
+				msg.post("/MenuHeroi#MenuHeroi", 'mostrarInstrucao', {instrucao=tjf[colID]}) 
+				end
+			
 		go.set_position(newpos)
 	end
 end

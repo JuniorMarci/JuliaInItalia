@@ -4,6 +4,9 @@ function init(self)
 	-- Remove this function if not needed
 	local interface = gui.get_node('Item')                           -- [6]
 	gui.set_text(interface,"")
+	gui.set_enabled(gui.get_node('Instrucoes'), false)
+	gui.set_enabled(gui.get_node('FundoInstrucoes'), false)
+	
 end
 
 function final(self)
@@ -25,6 +28,20 @@ function on_message(self, message_id, message, sender)
 	if (message_id == hash("itemAlterado")) then
 		gui.set_text(gui.get_node('Item'),message.item)
 	end
+
+	if (message_id == hash("mostrarInstrucao")) then
+		gui.set_text(gui.get_node('Instrucoes'),message.instrucao)
+		gui.set_enabled(gui.get_node('Instrucoes'), true)
+		gui.set_enabled(gui.get_node('FundoInstrucoes'), true)
+	end
+
+	
+	if (message_id == hash("mostrarInstrucao")) then
+		gui.set_text(gui.get_node('Instrucoes'),message.instrucao)
+		gui.set_enabled(gui.get_node('Instrucoes'), true)
+		gui.set_enabled(gui.get_node('FundoInstrucoes'), true)
+	end
+	
 end
 
 function on_input(self, action_id, action)
